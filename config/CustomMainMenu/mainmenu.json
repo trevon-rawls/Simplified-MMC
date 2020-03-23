@@ -1,0 +1,118 @@
+{
+	"images":
+	{
+		"title-bg":
+		{
+			"image" : "custommainmenu:textures/gui/menu-bg.png",
+			"posX" : -500,
+			"posY" : -65,
+			"width" : 1000,
+			"height" : 60,
+			"alignment" : "center"
+		},
+
+		"title":
+		{
+			"image" : "custommainmenu:textures/gui/modPackLogo.png",
+			"posX" : -227,
+			"posY" : -65,
+			"width" : 450,
+			"height" : 58,
+			"alignment" : "center"
+		}
+	},
+
+	"buttons":
+	{
+		"singleplayer":
+		{
+			"text" : "menu.singleplayer",
+			"posX" : 4,
+			"posY" : -25,
+			"width" : 100,
+			"height" : 20,
+			"alignment" : "bottom_left",
+			"action":
+			{
+				"type": "openGui",
+				"gui" : "singleplayer"
+			}
+		},
+
+		"multiplayer":
+		{
+			"text" : "menu.multiplayer",
+			"posX" : -165,
+			"posY" : 15,
+			"width" : 100,
+			"height" : 20,
+			"alignment" : "center",
+			"action":
+			{
+				"type": "openGui",
+				"gui" : "multiplayer"
+			}
+		},
+
+		"options":
+		{
+			"text" : "menu.options",
+			"posX" : -53,
+			"posY" : 15,
+			"width" : 100,
+			"height" : 20,
+			"alignment" : "center",
+			"action":
+			{
+				"type": "openGui",
+				"gui" : "options"
+			}
+		},
+
+		"quit":
+		{
+			"text" : "menu.quit",
+			"posX" : 59,
+			"posY" : 15,
+			"width" : 100,
+			"height" : 20,
+			"alignment" : "center",
+			"action":
+			{
+				"type": "quit"
+			}
+		}
+	},
+
+	"labels":
+	{
+		"modcount":
+		{
+			"text": "#modsloaded# Mods loaded, #modsactive# Mods active.",
+			"posX" : -90,
+			"posY" : -7,
+			"color" : -1,
+			"fontSize" : 0.5,
+			"alignment" : "bottom_right"
+		},
+
+		"modpackver":
+		{
+			"text": "v0.1a (MC #mcversion#, Forge #forgeversion#)",
+			"posX" : 3,
+			"posY" : 2,
+			"color" : -1,
+			"fontSize" : 0.4,
+			"alignment" : "top_left"
+		}
+	},
+
+	"other":
+	{
+		"background":
+		{
+			"image" : "custommainmenu:textures/background/screenshot1.png",
+			"mode" : "fill"
+		}
+	}
+}
